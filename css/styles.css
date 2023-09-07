@@ -37,11 +37,6 @@ li a:hover:not(.active) {
     flex-direction: column;
   }
 
-  .links li {
-    /* Add padding and styles to navigation items */
-    padding: 10px;
-  }
-
   .sectionportfolio {
     /* Adjust padding and margin for smaller screens */
     padding: 10px;
