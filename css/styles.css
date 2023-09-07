@@ -35,7 +35,7 @@ li a:hover:not(.active) {
     /* Adjust navigation styles for smaller screens */
     display: flex-start;
     flex-direction: column;
-    width: 50%;
+    width: 95%;
   }
 
   .links li {
