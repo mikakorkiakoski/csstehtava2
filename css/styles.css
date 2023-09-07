@@ -29,3 +29,24 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
   
 }
+
+@media screen and (max-width: 768px) {
+  .links {
+    /* Adjust navigation styles for smaller screens */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links li {
+    /* Add padding and styles to navigation items */
+    padding: 10px;
+  }
+
+  .sectionportfolio {
+    /* Adjust padding and margin for smaller screens */
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  /* Additional responsive styles as needed */
+}
