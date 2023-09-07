@@ -33,8 +33,13 @@ li a:hover:not(.active) {
 @media screen and (max-width: 768px) {
   .links {
     /* Adjust navigation styles for smaller screens */
-    display: flex;
+    display: flex-start;
     flex-direction: column;
+  }
+
+  .links li {
+    /* Add padding and styles to navigation items */
+    padding: 10px;
   }
 
   .sectionportfolio {
