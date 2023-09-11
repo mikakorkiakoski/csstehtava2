@@ -6,7 +6,7 @@
   background-color: #333;
   position: fixed;
   top: 0;
-  width: 99%;
+  width: 100%;
 }
 
 .links li {
@@ -27,23 +27,16 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04AA6D;
-  
 }
 
 @media screen and (max-width: 768px) {
-  .links {
-    display: flex-start;
-    flex-direction: column;
-    width: 97%;
+ #portfolio .links {
+    position: static; 
+    width: auto;
   }
 
-  .links li {
-    padding: 10px;
+ #portfolio .links li {
+    float: none;
+    text-align: center;
   }
-
-  .sectionportfolio {
-    padding: 10px;
-    margin-top: 10px;
-  }
-
 }
